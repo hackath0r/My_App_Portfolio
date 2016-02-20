@@ -12,63 +12,87 @@
     tools:context="com.androiddevelopernanodegree.myappportfolio.MainActivity"
     tools:showIn="@layout/activity_main">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:textSize="30sp"
-        android:textIsSelectable="false" />
+        android:textSize="27sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="SPOTIFY STREAMER"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/button2" />
+        android:layout_marginTop="55dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/AppButtonColor" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="SCORES APP"
         android:id="@+id/button2"
         android:layout_below="@+id/button"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/AppButtonColor"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="LIBRARY APP"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignStart="@+id/button4"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/AppButtonColor"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="BUILD IT BIGGER"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/AppButtonColor"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="BACON READER"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/AppButtonColor"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="CAPSTONE: MY OWN APP"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
-
-
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/CapstoneTextColor"
+        android:background="@color/CapstoneAppButtonColor"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
 </RelativeLayout>
